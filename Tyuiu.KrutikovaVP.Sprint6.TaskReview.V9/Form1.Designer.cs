@@ -1,6 +1,6 @@
 ﻿namespace Tyuiu.KrutikovaVP.Sprint6.TaskReview.V9
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.groupBoxTask_KVP = new System.Windows.Forms.GroupBox();
             this.textBoxConditionTask_KVP = new System.Windows.Forms.TextBox();
             this.groupBoxInPutData_KVP = new System.Windows.Forms.GroupBox();
@@ -278,17 +278,20 @@
             this.textBoxResult_KVP.Size = new System.Drawing.Size(100, 20);
             this.textBoxResult_KVP.TabIndex = 0;
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(677, 296);
             this.Controls.Add(this.groupBoxResult_KVP);
             this.Controls.Add(this.groupBoxGetMatrix_KVP);
             this.Controls.Add(this.groupBoxInPutData_KVP);
             this.Controls.Add(this.groupBoxTask_KVP);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "СпринтРевью 6 | Вариант 9 | Крутикова В. П,";
             this.groupBoxTask_KVP.ResumeLayout(false);
